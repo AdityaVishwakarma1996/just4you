@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HELLO</title>
+</head>
+<body>
+	
+	<h1>EXAMPLE OF IFRAME TAG FOR NESTED WEBSITE</h1>
+<iframe src="registration.php" style="height:200px;width:300px" title="Iframe Example"></iframe>
+</body>
+</html>

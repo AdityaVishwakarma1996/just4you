@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SHOPING</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+	<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+	<link rel="stylesheet" type="text/css" href="style.css">
+	 <link rel="stylesheet"href= "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="row clearfix">
+				<img src="images\logo.jpg" class="logo">
+
+				<ul class="mail-nav animate__animated animate__zoomIn" id="class">
+					<li><a href="#">TRENDS</a></li>
+					<li><a href="#">NEW ARRIVAL</a></li>
+					<li><a href="#">CHECK MORE</a></li>
+					<li><a href="emailcerification\registration.php">SIGN UP</a></li>
+
+
+				</ul>
+				<a href="#" class="mobile"  onclick="slideshow()"><i class="fas fa-bars"></i></a>
+			</div>
+
+		</nav>
+		<div class="main-content">
+		<h1>WELCOME TO <span class="new">FASHION-HUB</span>.<br>
+		HOUSE OF FASHION LOVER OO YESS!!!</h1>
+		<a href="#" class="btn btn-full">Click to show more</a>
+		<a href="#" class="btn btn-ull">Click to order now</a>
+	</div>
+
+</header>
+<script type="text/javascript">
+	function slideshow(){
+		var x = document.getElementById('class');
+		if(x.style.display === "none"){
+			x.style.display="block";
+		}else{
+			x.style.display="none";
+		}
+
+	}
+</script>
+
+</body>
+</html>

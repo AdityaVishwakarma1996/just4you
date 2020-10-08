@@ -1,0 +1,79 @@
+{
+	margin: 0px;
+	padding: 0px;
+	/*box-sizing: border-box;*/
+
+}
+
+
+
+ 
+
+
+
+body{
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('images/bg.jpg');
+	height: 600px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 1380px 700px;
+}
+form{
+	padding-top: 10%;
+}
+h1{
+	background-color:#DD97EA;
+	padding: auto;
+	font-weight: lighter;
+	margin-left: 60px;
+}
+td{
+	font-size: 30px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+@media only screen and (max-width: 1125px){
+	.main-content{
+		width: 100%;
+		padding:0 2%;
+	}
+
+}
+@media only screen and (max-width: 998px){
+	h1{font size: 200%;}
+}
+@media only screen and (max-width: 768px)
+{
+	h1{font size: 180%;}
+
+	.mail-nav {display: none;}
+	.mobile{
+		display: inline-block;
+		color: #fff;
+		float: right;
+		margin-top: 30px;
+		margin-right: 20px;
+		font-size: 40px;
+
+	}
+	.mail-nav li {
+		display: block;
+		margin-top:5px;
+	}
+	.mail-nav{
+		float: left;
+	}
+}
+@media only screen and (max-width: 480px){
+	btn-full{
+		margin-bottom: 20px
+	}
+	h1{
+  font-size: 160%;}
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+ color: #D42525;
+}
